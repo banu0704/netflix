@@ -7,17 +7,33 @@
      .mid-section{
         display: flex;
         flex-direction: column;
+        height: 100vh;
+        justify-content: center;
         align-items: center;
      }
-     .mid-section-heading{
+      .mid-section-heading{
         color: white;
+        font-size: 25px;
      }
      .mid-section-profiles{
         display: flex;
+        width: 90%; 
+        justify-content: space-evenly;
+        margin: 50px;
      }
      .mid-section-profile-image{
-        height: 192px;
+        height: 150px;
      }
      .mid-section-profile-name{
         color: white;
+        text-align: center;
+        font-size: 16px;
+     }
+     .mid-section-button{
+         background-color: #141414;
+         color: #dcdcdc;
+         border: 1px solid #dcdcdc;
+         margin: 50px;
+         padding: 15px;
+         font-size: 15px;
      }
